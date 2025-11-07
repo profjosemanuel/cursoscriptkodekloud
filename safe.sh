@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-set -e
 
-ehco "hellow world"
+name="JuanCarlos"
+
+echo "My full name is ${name} ${last_name}. Nice to meet you"
 
 exit 0
