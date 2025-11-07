@@ -6,7 +6,7 @@ set -o pipefail
 readonly PIPE_ERROR=156
 
 terminate() {
-local -r msg="$(1)"
+local -r msg="$1"
 local -r code="${2:-160}"
 echo "${msg}" >&2
 exit "${code}"
